@@ -1,0 +1,64 @@
+
+    /* Aplica a fonte no app */
+    html, body, [class*="css"] {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* Gradiente de fundo suave */
+    .stApp {
+        background: linear-gradient(135deg, #d0e7ff, #f5faff);
+        color: #003366;
+        padding: 1rem;
+    }
+
+    /* Títulos */
+    h1, h2, h3, h4 {
+        color: #003366;
+        font-weight: 600;
+    }
+
+    /* Estilo de botões */
+    .stButton>button {
+        background: linear-gradient(to right, #3399ff, #1a75ff);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 12px;
+        border: none;
+        font-weight: 600;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .stButton>button:hover {
+        background: linear-gradient(to right, #1a75ff, #005ce6);
+        transform: scale(1.04);
+    }
+
+    /* Selectbox e inputs */
+    div[data-baseweb="select"], div[data-baseweb="input"] {
+        background-color: white !important;
+        border: 2px solid #3399ff !important;
+        border-radius: 10px !important;
+        padding: 6px;
+        color: #003366 !important;
+        transition: border-color 0.3s ease;
+    }
+
+    div[data-baseweb="select"]:hover,
+    div[data-baseweb="input"]:hover {
+        border-color: #1a75ff !important;
+    }
+
+    /* Checkbox container */
+    .stCheckbox>div {
+        background-color: #e8f4ff;
+        border-radius: 8px;
+        padding: 8px 12px;
+        border: 1px solid #cce5ff;
+        margin-bottom: 8px;
+    }
+
+    /* Oculta o rodapé "Made with Streamlit" (opcional) */
+    footer {
+        visibility: hidden;
+    }

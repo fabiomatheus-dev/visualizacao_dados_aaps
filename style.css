@@ -1,0 +1,86 @@
+    /* Fundo geral do site */
+    .stApp {
+        background-color: #f0f8ff; /* Azul clarinho */
+        color: #003366; /* Azul escuro para o texto */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Títulos */
+    h1, h2, h3, h4 {
+        color: #003366;
+    }
+
+    /* Caixa de seleção, selectbox, inputs etc */
+    div[data-baseweb="select"], div[data-baseweb="input"] {
+        background-color: white !important;
+        border: 2px solid #3399ff !important;
+        border-radius: 8px !important;
+        padding: 5px;
+        color: #003366 !important;
+    }
+
+    /* Botões */
+    .stButton>button {
+        background-color: #3399ff;
+        color: white;
+        border-radius: 10px;
+        padding: 0.5em 1em;
+        border: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .stButton>button:hover {
+        background-color: #1a75ff;
+        transform: scale(1.03);
+    }
+
+    /* Checkboxes */
+    .stCheckbox>div {
+        background-color: #f0f8ff;
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+
+    /* Selectbox hover */
+    div[data-baseweb="select"]:hover {
+        border-color: #1a75ff !important;
+    }
+
+    /* Rodapé oculto (opcional) */
+    footer {
+        visibility: hidden;
+    }
+
+        /* Altera a fonte e o estilo do texto dentro do selectbox */
+    div[data-baseweb="select"] {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #003366;
+        background-color: #ffffff;
+        border: 2px solid #3399ff;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    /* Hover no selectbox */
+    div[data-baseweb="select"]:hover {
+        border-color: #1a75ff;
+    }
+
+    /* Texto dos itens da lista de seleção */
+    div[data-baseweb="menu"] {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 15px;
+        color: #003366;
+    }
+
+    label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #003366;
+        font-weight: 500;
+        margin-bottom: 8px;
+        display: block;
+    }
