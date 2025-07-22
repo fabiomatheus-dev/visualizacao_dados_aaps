@@ -827,23 +827,6 @@ if opcao2 == "2022":
                     plt.grid(axis='y')
                     st.pyplot(plt)
                     st.dataframe(linha_ano)
-
-                    imagem1 = Image.open('imagens/phoneutria.jpg').resize((250, 150))
-                    imagem2 = Image.open('imagens/loxosceles.jpg').resize((250, 150))
-                    imagem3 = Image.open('imagens/latrodexus.jpg').resize((250, 150))
-
-                        # Cria duas colunas
-                    col1, col2, col3 = st.columns(3)
-
-                        # Mostra cada imagem em sua coluna
-                    with col1:
-                        st.image(imagem1, caption='Phoneutria')
-
-                    with col2:
-                        st.image(imagem2, caption='Loxosceles')
-                        
-                    with col3:
-                            st.image(imagem3, caption='Latrodectus')
         if opcao3 == "Local da picada":
                     ano = 2022
                     linha_ano = df7[df7['Ano'] == str(ano)]
@@ -974,23 +957,6 @@ if opcao2 == "2021":
                     plt.grid(axis='y')
                     st.pyplot(plt)
                     st.dataframe(linha_ano)
-
-                    imagem1 = Image.open('imagens/phoneutria.jpg').resize((250, 150))
-                    imagem2 = Image.open('imagens/loxosceles.jpg').resize((250, 150))
-                    imagem3 = Image.open('imagens/latrodexus.jpg').resize((250, 150))
-
-                        # Cria duas colunas
-                    col1, col2, col3 = st.columns(3)
-
-                        # Mostra cada imagem em sua coluna
-                    with col1:
-                        st.image(imagem1, caption='Phoneutria')
-
-                    with col2:
-                        st.image(imagem2, caption='Loxosceles')
-                        
-                    with col3:
-                            st.image(imagem3, caption='Latrodectus')
         if opcao3 == "Local da picada":
                     ano = 2021
                     linha_ano = df7[df7['Ano'] == str(ano)]
@@ -1121,23 +1087,6 @@ if opcao2 == "2020":
                     plt.grid(axis='y')
                     st.pyplot(plt)
                     st.dataframe(linha_ano)
-
-                    imagem1 = Image.open('imagens/phoneutria.jpg').resize((250, 150))
-                    imagem2 = Image.open('imagens/loxosceles.jpg').resize((250, 150))
-                    imagem3 = Image.open('imagens/latrodexus.jpg').resize((250, 150))
-
-                        # Cria duas colunas
-                    col1, col2, col3 = st.columns(3)
-
-                        # Mostra cada imagem em sua coluna
-                    with col1:
-                        st.image(imagem1, caption='Phoneutria')
-
-                    with col2:
-                        st.image(imagem2, caption='Loxosceles')
-                        
-                    with col3:
-                            st.image(imagem3, caption='Latrodectus')
         if opcao3 == "Local da picada":
                     ano = 2020
                     linha_ano = df7[df7['Ano'] == str(ano)]
