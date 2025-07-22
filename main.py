@@ -450,23 +450,6 @@ if opcao2 == "2023":
                     st.pyplot(plt)
                     st.dataframe(linha_ano)
 
-                    imagem1 = Image.open('imagens/phoneutria.jpg').resize((250, 150))
-                    imagem2 = Image.open('imagens/loxosceles.jpg').resize((250, 150))
-                    imagem3 = Image.open('imagens/latrodexus.jpg').resize((250, 150))
-
-                        # Cria duas colunas
-                    col1, col2, col3 = st.columns(3)
-
-                        # Mostra cada imagem em sua coluna
-                    with col1:
-                        st.image(imagem1, caption='Phoneutria')
-
-                    with col2:
-                        st.image(imagem2, caption='Loxosceles')
-                        
-                    with col3:
-                            st.image(imagem3, caption='Latrodectus')
-
                     if st.checkbox('Mostrar detalhes adicionais'):
                         st.write('Comparação do número de acidentes por tipo de aranha entre os anos 2020 a 2023.')
 
